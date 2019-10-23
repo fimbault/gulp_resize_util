@@ -19,25 +19,4 @@ const resize = (done) => {
   done();
 }
 
-
- /*
-gulp.task('default', function () {
-  gulp.src('../myweb/site-perso/img/home_risk.png')
-    .pipe(imageResize({
-      width : 400,
-      crop : false,
-      upscale : false
-    }))
-    .pipe(gulp.dest('dist'));
-
-    gulp.src('../myweb/site-perso/img/home_app.png')
-    .pipe(imageResize({
-      width : 400,
-      crop : false,
-      upscale : false
-    }))
-    .pipe(gulp.dest('dist'));
-});
-*/
-
 exports.default = resize;
